@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>GITHUB UI</title>
+
+
+    <style>
+        .col-fluid-12 {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(239, 245, 245, 0.909);
+            display: grid;
+            grid-template-areas:
+                'header header header header'
+                'box1  box2 box2 box2'
+                'box1 box3 box4 box5'
+                'box1 box6 box6 box6';
+            grid-template-rows: 75px 50px 150px 150px;
+
+
+            gap: 10px 40px;
+
+        }
+
+        .header {
+            grid-area: header;
+
+
+            border: 2px solid rgb(48, 62, 69);
+
+            background-color: rgb(48, 62, 69);
+
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .box1 {
+            grid-area: box1;
+            margin: 10px;
+            border: 2px solid rgb(41, 44, 44);
+
+            background-color: rgb(41, 45, 45);
+        }
+
+        .box2 {
+            grid-area: box2;
+            margin: 10px;
+            border: 2px solid rgb(41, 44, 44);
+
+            background-color: rgb(41, 45, 45);
+        }
+
+        .box3 {
+            grid-area: box3;
+            margin: 10px;
+            border: 2px solid red;
+            border: 2px solid rgb(41, 44, 44);
+            background-color: rgb(41, 45, 45);
+
+        }
+
+        .box4 {
+            grid-area: box4;
+            margin: 10px;
+            border: 2px solid red;
+            border: 2px solid rgb(41, 44, 44);
+            background-color: rgb(41, 45, 45);
+
+
+        }
+
+        .box5 {
+            grid-area: box5;
+            margin: 10px;
+            border: 2px solid red;
+            border: 2px solid rgb(41, 44, 44);
+            background-color: rgb(41, 45, 45);
+
+        }
+
+        .box6 {
+            grid-area: box6;
+            margin: 10px;
+            border: 2px solid red;
+            border: 2px solid rgb(41, 44, 44);
+            background-color: rgb(41, 45, 45);
+        }
+
+        .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5,
+        .box6 {
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-fluid-12">
+
+                <div class="header">
+                    <div style="margin-top:20px; margin-left:10px; color: white;"><i class="fa fa-github fa-2x"
+                            aria-hidden="true"></i></div>
+                    <div style="margin-top:30px; color: white; font-family: 'Rubik', sans-serif;">GITHUB</div>
+                    <div style="visibility: hidden;"></div>
+                </div>
+
+                <div class="box1">
+                </div>
+                <div class="box2" style="font-family: 'Rubik', sans-serif; 
+                     box-sizing: border-box; padding-left: 5px;  padding-top: 5px;
+                       color:rgba(239, 245, 245, 0.909) ">
+                    Search
+                </div>
+                <div class="box3"> </div>
+                <div class="box4"></div>
+                <div class="box5"></div>
+
+                <div class="box6"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
